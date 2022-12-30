@@ -7,13 +7,13 @@ function Bars (props) {
 
     let color = "";
 
-    if (hp/10 > 7){
+    if (hp/10 >= 7){
         color = "green"
     }
-    else if(hp/10 >= 5 ){
+    else if(hp/10 > 4 && hp/10 < 7 ){
         color = "orange"
     }
-    if (hp/10 < 5){
+    if (hp/10 <= 4){
         color = "red"
     }
 // =======================================
